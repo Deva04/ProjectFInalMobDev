@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ListView
+        android:id="@+id/lstvw"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+    </ListView>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:text="NIM" />
+
+            <TextView
+                android:layout_width="22dp"
+                android:layout_height="wrap_content"
+                android:text=":" />
+
+            <TextView
+                android:id="@+id/tvnim"
+                android:layout_height="wrap_content"
+                android:text="Belum Ada Data" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:text="Nama" />
+
+            <TextView
+                android:layout_width="22dp"
+                android:layout_height="wrap_content"
+                android:text=":" />
+
+            <TextView
+                android:id="@+id/tvnama"
+                android:layout_height="wrap_content"
+                android:text="Belum Ada Data" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:text="Tema" />
+
+            <TextView
+                android:layout_width="22dp"
+                android:layout_height="wrap_content"
+                android:text=":" />
+
+            <TextView
+                android:id="@+id/tvtema"
+                android:layout_height="wrap_content"
+                android:text="Belum Ada Data" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:text="Score" />
+
+            <TextView
+                android:layout_width="22dp"
+                android:layout_height="wrap_content"
+                android:text=":" />
+
+            <TextView
+                android:id="@+id/tvscore"
+                android:layout_height="wrap_content"
+                android:text="Belum Ada Data" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:text="Tanggal" />
+
+            <TextView
+                android:layout_width="22dp"
+                android:layout_height="wrap_content"
+                android:text=":" />
+
+            <TextView
+                android:id="@+id/tvtgl"
+                android:layout_height="wrap_content"
+                android:text="Belum Ada Data" />
+        </TableRow>
+
+
+
+    </TableLayout>
+
+</LinearLayout>
